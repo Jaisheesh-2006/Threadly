@@ -3,7 +3,7 @@ import { api } from "../lib/axios.js";
 import { create } from "zustand";
 import io from "socket.io-client";
 
-const defaultSocketUrl = "http://localhost:5001";
+const defaultSocketUrl = "https://threadlybackend-8v2id5kc.b4a.run";
 const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || defaultSocketUrl;
 
 export const useAuthStore = create((set, get) => ({

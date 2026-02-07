@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const defaultApiBase = "http://localhost:5001/api";
+const defaultApiBase = "https://threadlybackend-8v2id5kc.b4a.run/api";
 const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || defaultApiBase;
 
 //* create an instance of axios
